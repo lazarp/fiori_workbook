@@ -389,8 +389,8 @@ Evite o uso de **controles, propriedades e métodos depreciados**. O SAPUI5 evol
 
 **Dica:** Tanto o Business Application Studio quanto o VS Code (por meio das extensões do Fiori Tools) indicam problemas dessa natureza:
 
-![alt text](../images/image002.png)
-![alt text](../images/image003.png)
+![alt text](/images/image002.png)
+![alt text](/images/image003.png)
 
 ---
 
