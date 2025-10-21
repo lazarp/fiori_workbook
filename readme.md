@@ -437,7 +437,7 @@ onSavePress: async function() {
         await this._saveData(oData);
         MessageToast.show(this.getText("msgSaved"));
     } catch (oError) {
-        sap.base.Log.error("Erro ao salvar dados", oError);
+		console.error(oError); //apenas para registrar no console o erro. Pode usar a classe de log do fiori mesmo
         MessageBox.error(oError.message || this.getText("errGeneric"));
     }
 },
